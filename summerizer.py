@@ -11,7 +11,7 @@ def llama_summarizer(text):
         
         
     except Exception as e:
-        print(f"Error occurred: {e}")
+        print("An error occurred during summarization.")
         return None
 
 if __name__ == "__main__":
